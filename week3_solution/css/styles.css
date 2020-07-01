@@ -1,0 +1,113 @@
+body {
+  font-size: 18px;
+  color: #fff;
+  background-color: #61122f;
+  font-family: 'Sofia';
+}
+
+/** HEADER **/
+#header-nav {
+  background-color: #f6b319;
+  border-radius: 0;
+  border: 0;
+}
+
+#company-logo {
+  font-size: 2em;
+  color: blue;
+  margin: 10px 15px 10px 0;
+  text-decoration: none;
+}
+
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: #951C49;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #61122f;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -40px;
+}
+
+
+/* END HEADER */
+
+
+/* HOME PAGE */
+#main-content {
+  width: 90%;
+  margin-bottom: 10px;
+}
+#menu-top { /* Menu */
+  color: yellow;
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  line-height: .75;
+}
+
+.row {
+  width: 100%;
+  margin: 0;
+}
+
+#chicken, #beef, #sushi {
+  height: 750px;
+  margin-bottom: 30px;
+  position: relative;
+  border: 2px solid #3F0C1F;
+  overflow: auto;
+  background-color: yellow;
+  color: blue;
+  font-size: .8em;
+  padding: 15px;
+}
+#chicken a, #beef a, #sushi a {
+    color: red; 
+  }
+
+/* END HOME PAGE */
+
+/********** Large devices only **********/
+/* @media (min-width: 1200px) {
+  }  */
+
+/********** Medium devices only **********/
+/* @media (min-width: 992px) and (max-width: 1199px) {
+  }  */
+
+/********** Small devices only **********/
+/* @media (min-width: 768px) and (max-width: 991px) {
+  }  */
+
+@media (min-width: 768px) {
+  .navbar-header button.navbar-toggle {
+    display: none;
+  }
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  /* Header */
+  
+  #nav1 a {
+    font-size: 1.2em;
+    background-color: white;
+  }
+}
+
+
+/********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
+/*@media (max-width: 479px) {
+} */
+
